@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: HP;
+  src: url('.trybe/fonts/HARRYP__.ttf') format('truetype');
+}
+
+h1 {
+  font-family: HP, sans-serif;
+  color: white;
+  padding-top: 13px;
+  font-size: 60px;
+  text-shadow: 5px 3px 2px black;
+}
+
+@font-face {
+  font-family: BODY;
+  src: url('.trybe/fonts/Champagne\ &\ Limousines.ttf') format('truetype');
+}
+
+main {
+  font-family: BODY, sans-serif;
+  font-size: 18px;
+  margin: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  width: 100%;
+}
+
+.trybewarts-login {
+  display: flex;
+  padding-inline: 10px;
+
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.nomes , .home {
+  display: flex;
+}
+
+.avaliacao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entrar-btn {
+  height: 25px;
+  width: 120px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+#submit-btn {
+  border-radius: 5px;
+}
+
+.trybewarts-header-logo {
+  padding-left: 15px;
+  width: 60px;
+}
+
+.email , .senha {
+  border-radius: 5px;
+  height: 20px;
+  align-self: center;
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(50, 167, 145);
+  color: white;
+}
+
+#section {
+  display: flex;
+  width: 100%;
+}
+
+#section section:first-child {
+  width: 30%;
+}
+
+#counter {
+  align-self: flex-end;
+  margin-top: -20px;
+  margin-right: 6px;
+}
+
+@media screen and ( max-width : 1000px ) {
+
+  body {
+
+    background: blue;
+  }
+
+  body .nomes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  body #trybewarts-forms-logo {
+    margin: auto;
+  }
+
+  body footer {
+    width: 100%;
+  }
+}

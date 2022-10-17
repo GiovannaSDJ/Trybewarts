@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: HP;
-  src: url('./HARRYP__.ttf') format('truetype');
+  src: url('HARRYP__.ttf') format('truetype');
 }
 
 h1 {
@@ -19,16 +19,15 @@ h1 {
 
 @font-face {
   font-family: BODY;
-  src: url('./Champagne\ &\ Limousines.ttf') format('truetype');
+  src: url('Champagne\ &\ Limousines.ttf') format('truetype');
 }
 
 main {
   font-family: BODY, sans-serif;
   font-size: 18px;
-  margin: 25px;
   display: flex;
   justify-content: space-evenly;
-  padding: 70px;
+  padding: 20px;
 }
 
 .header {
@@ -110,25 +109,52 @@ footer {
   margin-right: 6px;
 }
 
-@media screen and ( max-width : 1000px ) {
+@media screen and ( max-width : 978px ) {
 
-  body {
-
-    background: blue;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  body .nomes {
+  .trybewarts-login {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  }
+
+  #evaluation-form {
     width: 100%;
   }
 
-  body #trybewarts-forms-logo {
+  #trybewarts-forms-logo {
+    padding-bottom: 25px;
+    width: 80%;
+    height: initial;
     margin: auto;
+  }
+
+  body main {
+    width: min(700px, 100%);
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+
+  .form-login , .home {
+    display: flex;
+    flex-direction: column;
   }
 
   body footer {
     width: 100%;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .avaliacao {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -27,7 +27,7 @@ main {
   font-size: 18px;
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 150px;
 }
 
 .header {

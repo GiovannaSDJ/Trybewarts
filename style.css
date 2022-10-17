@@ -27,7 +27,7 @@ main {
   font-size: 18px;
   display: flex;
   justify-content: space-evenly;
-  padding: 150px;
+  padding: 20px;
 }
 
 .header {
@@ -154,6 +154,10 @@ footer {
   }
 
   .avaliacao {
+    display: flex;
+    flex-direction: column;
+  }
+  #section {
     display: flex;
     flex-direction: column;
   }

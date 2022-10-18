@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: HP;
-  src: url('.trybe/fonts/HARRYP__.ttf') format('truetype');
+  src: url('HARRYP__.ttf') format('truetype');
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 
 @font-face {
   font-family: BODY;
-  src: url('.trybe/fonts/Champagne\ &\ Limousines.ttf') format('truetype');
+  src: url('Champagne\ &\ Limousines.ttf') format('truetype');
 }
 
 main {

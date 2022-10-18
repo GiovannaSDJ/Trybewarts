@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: HP;
-  src: url('HARRYP__.ttf') format('truetype');
+  src: url('.trybe/fonts/HARRYP__.ttf') format('truetype');
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 
 @font-face {
   font-family: BODY;
-  src: url('Champagne\ &\ Limousines.ttf') format('truetype');
+  src: url('.trybe/fonts/Champagne\ &\ Limousines.ttf') format('truetype');
 }
 
 main {
@@ -28,6 +28,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+  padding-top: 120px;
 }
 
 .header {
@@ -109,6 +110,10 @@ footer {
   margin-right: 6px;
 }
 
+#form-data {
+  font-size: 30px;
+}
+
 @media screen and ( max-width : 978px ) {
 
   * {
@@ -157,6 +162,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
   #section {
     display: flex;
     flex-direction: column;

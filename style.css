@@ -112,6 +112,7 @@ footer {
 
 #form-data {
   font-size: 30px;
+  padding-top: 130px;
 }
 
 @media screen and ( max-width : 978px ) {
